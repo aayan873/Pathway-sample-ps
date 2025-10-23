@@ -24,7 +24,7 @@ task4/
 ├── memory.py # Two tier memory system
 ├── requirements.txt # python dependencies
 ├── user_memory.json # user data
-├── image,png # converstaion image
+├── image.png # converstaion image
 └── README.md # this file
 ```
 ## Installation
