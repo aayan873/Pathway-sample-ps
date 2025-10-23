@@ -7,7 +7,7 @@ I have completed Task 1 (Docker setup), Task 2 (Real-Time AI-Driven Stock Price 
 ## Repository Structure
 
 ```
-pathway-assignment/
+Pathway-sample-ps/
 ├── task1/   # Pathway Docker deployment
 ├── task2/   # Bitcoin LSTM prediction model
 ├── task4/   # AI customer support system
@@ -23,7 +23,7 @@ Containerized the Pathway project using a simple Python-based Dockerfile and ver
 
 ### Details
 
-- **LSTM Neural Network:** Two-layer architecture (64→32 units) with dropout regularization
+- **LSTM:** Two-layer architecture (64→32 units) with dropout regularization
 - **Technical Indicators:** MA5, MA10, MA20, RSI14, volatility, price range, returns
 - **Data:** Used historical Bitcoin prices (Nov 2013 – Dec 2024 for training, Jan 2025 – Oct 2025 for testing)
 - **Prediction:** Outputs the probability of upward movement; converted to next-step price direction
