@@ -6,11 +6,13 @@ I have completed Task 1 (Docker setup), Task 2 (Real-Time AI-Driven Stock Price 
 
 ## Repository Structure
 
+```
 pathway-assignment/
 ├── task1/   # Pathway Docker deployment
 ├── task2/   # Bitcoin LSTM prediction model
 ├── task4/   # AI customer support system
 └── README.md
+```
 
 
 ## Task 1: Docker Setup & Pathway Deployment
