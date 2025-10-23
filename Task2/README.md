@@ -1,6 +1,6 @@
 # Bitcoin Price Prediction with LSTM
 
-Real time directional Bitcoin price prediction using a two-layer LSTM with technical indicators.
+Directional Bitcoin price prediction using a two-layer LSTM with technical indicators.
 
 ## Overview
 
@@ -35,11 +35,16 @@ task2/
 The model uses Bitcoin historical price data:
 - **Training:** November 19, 2013 – December 31, 2024
 - **Testing:** January 1, 2025 – October 21, 2025
-- **Features:** open, high, low, close, volume, marketCap
+- **Raw Features:** close, volume
+- **Engineered Features:** MA5, MA10, MA20, RSI14, returns, range, volatility10
+
 
 Data files: 
 - `Bitcoin_19_11_2013-31_12_2024_train_data.csv`
 - `Bitcoin_01_01_2025-21_10_2025_test_data.csv`
+
+### Install dependencies
+```pip install -r requirements.txt```
 
 ## Usage
 
