@@ -12,7 +12,6 @@ This project predicts Bitcoin price movements (up/down) using historical price d
 - **Technical Indicators:** MA5, MA10, MA20, RSI14, 10-day volatility, price range, returns
 - **Zero Data Leakage:** Strict temporal ordering prevents future information leakage
 - **Binary Classification:** Predicts probability of upward/downward price movement
-- **PyTorch Implementation:** CUDA-accelerated training when GPU available
 
 ## Project Structure
 
