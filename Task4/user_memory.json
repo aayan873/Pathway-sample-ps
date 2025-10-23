@@ -1,0 +1,20 @@
+{
+  "person": {
+    "value": "Aayan Tejani",
+    "context": "My email is aayantejani1312@gmail.com and my phone number is 8779477988"
+  },
+  "city": {
+    "value": "Mumbai",
+    "context": "Hi! I'm Aayan Tejani from Mumbai, India"
+  },
+  "organization": {
+    "value": "Pathway AI",
+    "context": "I work at Pathway AI as a Machine Learning Engineer"
+  },
+  "email": "aayan.tejani@gmail.com",
+  "phone": "9543847723",
+  "location": {
+    "value": "India",
+    "context": "he current interest rates for savings accounts in India?"
+  }
+}
