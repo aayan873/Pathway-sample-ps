@@ -67,7 +67,7 @@ Data files:
 - Displays predicted vs actual price plot
 - Shows directional accuracy: **54.68%**
 
-## 🧠 Model Architecture
+## Model Architecture
 ```
 Input: [batch_size, 30 timesteps, 9 features]
 ↓
@@ -113,18 +113,6 @@ This methodology follows standard financial forecasting practices for probabilit
 - **Model captures major trend movements**
 - **Maintains temporal integrity** (no future data leakage)
 
-## Technical Details
-
-**Data Preprocessing:**
-- StandardScaler normalization applied to all features
-- Sliding window of 30 days creates sequences
-- Train-test split maintains chronological order
-
-**Model Training:**
-- Reproducible results (seed=42 for all random components)
-- GPU acceleration when available (`cuda` device detection)
-- Progress tracking with tqdm
-- Model and scaler persistence for inference
 
 ## References
 
