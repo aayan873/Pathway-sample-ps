@@ -8,7 +8,7 @@ This chatbot uses Google Gemini 2.5 Flash to provide financial support while aut
 
 ## Details
 
-- **Google Gemini 2.5 Flash:** Advanced LLM via LangChain
+- **Google Gemini 2.5 Flash:** LLM via LangChain
 - **Automatic Entity Extraction:** GLiNER + regex for names, locations, account details, emails, phone numbers
 - **Two-Tier Memory System:** Recent history (10 messages) + automatic LLM-based summarization
 - **Real-Time Web Search:** DuckDuckGo integration triggered by financial keywords
@@ -35,10 +35,10 @@ task4/
 
 ### Set Your Gemini API Key
 
-**Environment Variable:**
+Environment Variable:
 ``export GEMINI_API_KEY="your-api-key-here``
 
-**Or create a `.env` file:**
+Or create a `.env` file:
 ```GEMINI_API_KEY=your-api-key-here```
 
 ## Usage
@@ -52,7 +52,8 @@ task4/
 - `exit` - Quit the chatbot
 - `clear` - Reset conversation memory and user details
 
-### Example Conversation can be found in the uploaded screenshot
+
+***Example Conversation can be found in the uploaded screenshot***
 
 ## System Architecture
 
